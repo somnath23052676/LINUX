@@ -5,9 +5,10 @@ here in this repository , i will introduce some basic commands i have learnt whi
 
 now i am listing the basic commands 
 
-1  FILE HANDLING
+#heading1  FILE HANDLING
 
-mkdir directoryname  - creates a directory 
-cd directoryname - changes directory to the specifid directory 
+#mkdir directoryname  - creates a directory 
+
+#cd directoryname - changes directory to the specifid directory 
 
 
