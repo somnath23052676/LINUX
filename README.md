@@ -9,9 +9,9 @@ here in this repository , i will introduce some basic commands i have learnt whi
 
 ## FILE HANDLING
 
-**'mkdir directoryname'**  - creates a directory 
+- **'mkdir directoryname'**  - creates a directory 
 
-**'cd directoryname'** - changes directory to the specifid directory
+- **'cd directoryname'** - changes directory to the specifid directory
 
 **'rm -r directoryname'** - removes a non empty directory
 
