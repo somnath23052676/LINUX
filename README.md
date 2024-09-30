@@ -13,7 +13,7 @@ here in this repository , i will introduce some basic commands i have learnt whi
 
 `cd directoryname` - changes directory to the specifid directory
 
-**'rm -r directoryname'** - removes a non empty directory
+**`rm -r directoryname`** - removes a non empty directory
 
 **'ls'** - lists directories and files 
 
