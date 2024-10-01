@@ -7,7 +7,7 @@ here in this repository , i will introduce some basic commands i have learnt whi
 
 
 
-## FILE HANDLING
+### FILE HANDLING
 
 `mkdir directoryname`  - creates a directory 
 
