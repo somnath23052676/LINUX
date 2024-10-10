@@ -259,11 +259,6 @@ _________________________________________
 
 ```
 
-```bash
-this is a lolcat command 
-
-```
-
 
 2 cmatrix 
 
@@ -289,6 +284,28 @@ there are a lot of cmatrix functions , to know all of them , type the following 
 ```bash
 cmatrix --help
 ```
+
+3 sl 
+
+this commands prints a moving ascii train 
+
+```bash
+sudo apt install sl
+```
+
+command -
+
+```bash
+sl
+```
+
+to print colourful sl
+
+```bash
+sl | lolcat
+```
+
+
 
 
 
