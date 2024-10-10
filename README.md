@@ -210,6 +210,8 @@ sudo apt install cowsay
 cowsay " this is a cowsay command "
 ```
 output - 
+```bash
+
 ___________________________
 < this is a cowsay command  >
  ---------------------------
@@ -218,10 +220,15 @@ ___________________________
             (__)\       )\/\
                 ||----w |
                 ||     ||
+
+```
+
 ```bash
 cowsay -f dragon "this is a dragon cowsay command"
 ```
 output -
+```bash
+
 < this is a dragon cowsay command >
  ---------------------------------
       \                    / \  //\
@@ -242,9 +249,13 @@ output -
                                                                   /.-~
 
 
+```
+
 ```bash
 cowsay -f tux "this is a linux penguin cowsay command "
 ```
+output -
+```bash
 _________________________________________
 < this is a linux penguin cowsay command  >
  -----------------------------------------
@@ -258,6 +269,7 @@ _________________________________________
     /'\_   _/`\
     \___)=(___/
 
+```
 
 
 
