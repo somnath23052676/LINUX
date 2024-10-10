@@ -9,31 +9,67 @@ here in this repository , i will introduce some basic commands i have learnt whi
 
 ### FILE HANDLING
 
+1  create a drectory
+
 ```bash
 mkdir directoryname
 ```
-- creates a directory 
+2  changes directory to the specifid directory
 
-`cd directoryname` - changes directory to the specifid directory
+```bash
+cd directoryname
+```
+3  exits from the current directory
 
-`cd ..` - exits from the current directory \
+```bash 
+cd ..
+``` 
 **you can add more . after cd .. then one level more exit will be done , for example you are in /java/algorithms/sliding_windows , you want to go to /java then type cd ... , if you completely go back to home directory then cd ....**
 
+ 4  removes an non empty directory 
 
-`rm -r directoryname` - removes an non empty directory 
+```bash
+rm -r directoryname
+```
 
-`ls` - lists directories and files 
+5  lists directories and files 
 
-`ls -l` - lists directories and files with more detail informations
+```bash
+ls
+```
 
-`pwd` - shows current directory path 
+6  lists directories and files with more detail informations
 
-`cp directory0/file directory1` - copies file from one directory to another directory
+```bash
+ls -l
+```
+7  shows current directory directory
 
-`mv directory0/file directory1` - moves file from one directory to another directory \
+```bash
+pwd
+```
+
+**full form is print working directory**
+
+8  copies file from one directory to another directory
+
+```bash
+cp directory0/file directory1
+```
+
+9  moves file from one directory to another directory
+
+```bash
+mv directory0/file directory1
+```
+
 **the `mv` command can also be used in a different way , suppose in a directory a code is named as reverse_arr.java i want to rename the code file as reverse.java , then type `mv reverse_arr.java reverse.java`**
 
-`cat array.java` - prints the contents of a file in text form in terminal 
+10  prints the contents of a file in text form in terminal 
+
+```bash
+cat array.java
+```
 
 
 
