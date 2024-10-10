@@ -71,13 +71,13 @@ pwd
 10  copies file from one directory to another directory
 
 ```bash
-cp directory0/file directory1
+cp directory_0/file directory_1
 ```
 
 11  moves file from one directory to another directory
 
 ```bash
-mv directory0/file directory1
+mv directory_0/file directory_1
 ```
 
 **the `mv` command can also be used in a different way , suppose in a directory a code is named as reverse_arr.java i want to rename the code file as reverse.java , then type `mv reverse_arr.java reverse.java`**
@@ -87,6 +87,184 @@ mv directory0/file directory1
 ```bash
 cat array.java
 ```
+
+13 prints the contents of a file in text form in terminal - colourful 
+
+```bash
+lolcat array.java
+```
+
+**lolcat is not preinstalled in most linux distibutions , download with  the following command**
+
+```bash
+sudo apt install lolcat
+```
+
+14 changing directory from another directory
+
+**if you are in a directory and want to go to another directory and dont want to change the directory using `cd ..` then `cd directory_name` , then this command is useful**
+
+```bash
+cd /home/user_name/drectory_name
+```
+
+### SUDO COMMANDS
+
+sudo means super user do , this command allows a user to execute a command as superuseer 
+
+1 installing packages
+
+for installing packages different linux distributions use different packages , some of the popular packages are
+apt - adanced packaging tool
+pacman - package manager 
+flatpak 
+snap 
+
+as I use ubuntu based system pop os , i use apt ,
+
+```bash
+sudo apt install package_name
+```
+
+2 removing packages
+
+```bash
+sudo apt remove package_name
+```
+
+3 remove packages and it's configuration files
+
+```bash
+sudo apt purge package_name
+```
+
+4 remove unused packages
+
+```bash
+sudo apt autoremove
+```
+
+5 updating system
+
+```bash
+sudo apt update
+```
+
+6 upgrading system
+
+```bash
+sudo apt upgrade
+```
+
+7 add new user profile
+
+```bash
+sudo adduser username
+```
+
+8 delete a user
+
+```bash
+sudo deluser username
+```
+
+9 show all hardware information
+
+```bash
+sudo lshw
+```
+
+**this function can also run without sudo**
+
+10 networking restart
+
+```bash
+sudo systemctl restartnetworking
+```
+
+### GAME COMMANDS
+
+every command has to be first installed with `sudo apt install package_name`
+
+1 cmatrix 
+
+this command prints a matrix
+
+```bash
+sudo apt install cmatrix
+```
+to execute cmatrix -
+
+```bash
+cmatrix
+```
+
+2 cowsay 
+
+this command prints a ascii cow saying something and you can print other things than cow
+
+```bash
+sudo apt install cowsay
+```
+```bash
+cowsay " this is a cowsay command "
+```
+output - 
+___________________________
+< this is a cowsay command  >
+ ---------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+```bash
+cowsay -f dragon "this is a dragon cowsay command"
+```
+output -
+< this is a dragon cowsay command >
+ ---------------------------------
+      \                    / \  //\
+       \    |\___/|      /   \//  \\
+            /0  0  \__  /    //  | \ \    
+           /     /  \/_/    //   |  \  \  
+           @_^_@'/   \/_   //    |   \   \ 
+           //_^_/     \/_ //     |    \    \
+        ( //) |        \///      |     \     \
+      ( / /) _|_ /   )  //       |      \     _\
+    ( // /) '/,_ _ _/  ( ; -.    |    _ _\.-~        .-~~~^-.
+  (( / / )) ,-{        _      `-.|.-~-.           .~         `.
+ (( // / ))  '/\      /                 ~-. _ .-~      .-~^-.  \
+ (( /// ))      `.   {            }                   /      \  \
+  (( / ))     .----~-.\        \-'                 .~         \  `. \^-.
+             ///.----..>        \             _ -~             `.  ^-`  ^-_
+               ///-._ _ _ _ _ _ _}^ - - - - ~                     ~-- ,.-~
+                                                                  /.-~
+
+
+```bash
+cowsay -f tux "this is a linux penguin cowsay command "
+```
+_________________________________________
+< this is a linux penguin cowsay command  >
+ -----------------------------------------
+   \
+    \
+        .--.
+       |o_o |
+       |:_/ |
+      //   \ \
+     (|     | )
+    /'\_   _/`\
+    \___)=(___/
+
+
+
+
+
+ 
+
+
 
 
 
