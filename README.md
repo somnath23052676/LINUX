@@ -243,7 +243,7 @@ command -
 cowsay -f tux "this is a linux penguin cowsay command "
 ```
 output -
-```bash
+```
 _________________________________________
 < this is a linux penguin cowsay command  >
  -----------------------------------------
