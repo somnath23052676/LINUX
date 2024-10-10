@@ -9,8 +9,10 @@ here in this repository , i will introduce some basic commands i have learnt whi
 
 ### FILE HANDLING
 
-`bash
-mkdir directoryname`  - creates a directory 
+```bash
+mkdir directoryname
+```
+- creates a directory 
 
 `cd directoryname` - changes directory to the specifid directory
 
