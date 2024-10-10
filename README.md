@@ -198,7 +198,7 @@ command -
 cowsay " this is a cowsay command "
 ```
 output - 
-```bash
+```
 
 ___________________________
 < this is a cowsay command  >
@@ -215,7 +215,7 @@ command -
 cowsay -f dragon "this is a dragon cowsay command"
 ```
 output -
-```bash
+```
 
 < this is a dragon cowsay command >
  ---------------------------------
