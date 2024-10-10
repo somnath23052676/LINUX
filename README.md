@@ -54,7 +54,9 @@ ls -a
 
 ```bash
 ll -a
-#or
+```
+or
+```bash
 ls -a -l
 ```
 
