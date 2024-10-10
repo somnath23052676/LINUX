@@ -186,20 +186,7 @@ sudo systemctl restartnetworking
 
 every command has to be first installed with `sudo apt install package_name`
 
-1 cmatrix 
-
-this command prints a matrix
-
-```bash
-sudo apt install cmatrix
-```
-to execute cmatrix -
-
-```bash
-cmatrix
-```
-
-2 cowsay 
+1 cowsay 
 
 this command prints a ascii cow saying something and you can print other things than cow
 
@@ -274,8 +261,30 @@ _________________________________________
 
 
 
- 
+2 cmatrix 
 
+this command prints a matrix
+
+```bash
+sudo apt install cmatrix
+```
+to execute cmatrix -
+
+```bash
+cmatrix
+```
+
+by default the colout of cmatrix is green to specify colour -
+
+```bash
+cmatrix -C colour
+```
+**Valid colors are green, red, blue, white, yellow, cyan, magenta and black.**
+
+there are a lot of cmatrix functions , to know all of them , type the following command
+```bash
+cmatrix --help
+```
 
 
 
