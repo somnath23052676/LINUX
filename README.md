@@ -43,7 +43,22 @@ ls
 ```bash
 ls -l
 ```
-7  shows current directory directory
+
+7 all directores and files including hidden directories and files
+
+```bash
+ls -a
+```
+
+8 all directores and files including hidden directories and files with detailed information
+
+```bash
+ll -a
+#or
+ls -a -l
+```
+
+9  shows current directory directory
 
 ```bash
 pwd
@@ -51,13 +66,13 @@ pwd
 
 **full form is print working directory**
 
-8  copies file from one directory to another directory
+10  copies file from one directory to another directory
 
 ```bash
 cp directory0/file directory1
 ```
 
-9  moves file from one directory to another directory
+11  moves file from one directory to another directory
 
 ```bash
 mv directory0/file directory1
@@ -65,7 +80,7 @@ mv directory0/file directory1
 
 **the `mv` command can also be used in a different way , suppose in a directory a code is named as reverse_arr.java i want to rename the code file as reverse.java , then type `mv reverse_arr.java reverse.java`**
 
-10  prints the contents of a file in text form in terminal 
+12  prints the contents of a file in text form in terminal 
 
 ```bash
 cat array.java
