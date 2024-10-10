@@ -193,6 +193,7 @@ this command prints a ascii cow saying something and you can print other things 
 ```bash
 sudo apt install cowsay
 ```
+command -
 ```bash
 cowsay " this is a cowsay command "
 ```
@@ -209,7 +210,7 @@ ___________________________
                 ||     ||
 
 ```
-
+command -
 ```bash
 cowsay -f dragon "this is a dragon cowsay command"
 ```
@@ -237,7 +238,7 @@ output -
 
 
 ```
-
+command -
 ```bash
 cowsay -f tux "this is a linux penguin cowsay command "
 ```
@@ -257,8 +258,6 @@ _________________________________________
     \___)=(___/
 
 ```
-
-
 
 
 2 cmatrix 
