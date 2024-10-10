@@ -9,7 +9,7 @@ here in this repository , i will introduce some basic commands i have learnt whi
 
 ### FILE HANDLING
 
-1  create a drectory
+1  create a directory
 
 ```bash
 mkdir directoryname
