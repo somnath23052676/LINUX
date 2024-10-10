@@ -9,7 +9,8 @@ here in this repository , i will introduce some basic commands i have learnt whi
 
 ### FILE HANDLING
 
-`mkdir directoryname`  - creates a directory 
+`bash
+mkdir directoryname`  - creates a directory 
 
 `cd directoryname` - changes directory to the specifid directory
 
@@ -31,13 +32,6 @@ here in this repository , i will introduce some basic commands i have learnt whi
 **the `mv` command can also be used in a different way , suppose in a directory a code is named as reverse_arr.java i want to rename the code file as reverse.java , then type `mv reverse_arr.java reverse.java`**
 
 `cat array.java` - prints the contents of a file in text form in terminal 
-```bash
-hostname -i
-whoami
-uname
-```
-now the code snippet is complete
-
 
 
 
